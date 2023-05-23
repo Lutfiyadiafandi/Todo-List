@@ -53,7 +53,7 @@ export function Header({ handleAddTask }) {
       <h3>{fullDate}</h3>
       <form onSubmit={handleSubmit} className={styles.newTaskForm}>
         <input
-          placeholder="What is your main focus for today?"
+          placeholder="What is your main focus today?"
           type="text"
           onChange={onChangeTitle}
           value={title}
